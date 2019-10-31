@@ -1,0 +1,4 @@
+Student name: Kim Heemskerk
+Student number: 648486
+Student class: INF1C
+Github: https://github.com/InvaderCipher/Taekwondo-Haarlem 
