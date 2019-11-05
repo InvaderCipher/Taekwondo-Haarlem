@@ -1,0 +1,118 @@
+
+#myVideo 
+{
+	position : fixed;
+	right : 0;
+	bottom : 0;
+	min-width : 100%;
+	min-height : 100%;
+	z-index : -100;
+}
+
+body
+{
+	font-family : Arial, Helvetica, sans-serif;
+	margin : 50px auto;
+	max-width : 1200px;
+}
+
+#titel
+{
+	text-align : center;
+}
+
+#navigatie
+{
+	background-color : #D3D3D3;
+	float : left;
+	position : fixed;
+	padding-right : 20px;
+}
+
+section
+{
+	background-color : #F0FFFF;
+	max-width : 800px;
+	margin : 10px auto;
+	padding-left : 20px;
+}
+
+#imgstation
+{
+	width : 30%;
+	float : right;
+	padding : 10px;
+}
+
+#MainContent
+{
+	padding-top : 10px;
+	padding-bottom : 20px;
+}	
+
+#SecondaryContent
+{
+	padding-top : 10px;
+	padding-bottom : 20px;
+}
+
+.imgsport 
+{
+	width : 100%;
+}
+
+#sportinhoud
+{
+	display : grid;
+	grid-template-columns : 47% 47%;
+	grid-gap : 30px;
+	align : center;
+	padding-left : 5px;
+	padding-right : 5px;
+}
+
+#sporttitel
+{
+	padding-top : 10px;
+}
+
+#ReferralContent
+{
+	padding-top : 10px;
+	padding-bottom : 20px;
+	display : flex;
+	space : even;
+}
+
+#referralinhoud
+{
+	flex-basis : 50%;
+	flex-grow : 0;
+}
+
+#linksite
+{
+	flex-basis : 50%;
+	flex-grow : 1;
+}
+
+button
+{
+	color : #FEFEFE;
+	background-color : #8B0000;
+	border : double;
+	border-color : #DF2525;
+	padding : 5px 10px;
+	text-align : center;
+}
+
+button:hover
+{
+	background-color : #F06262;
+}
+
+
+
+
+
+
