@@ -1,0 +1,150 @@
+
+#myVideo 
+{
+	position : fixed;
+	right : 0;
+	bottom : 0;
+	min-width : 100%;
+	min-height : 100%;
+	z-index : -100;
+}
+
+body
+{
+	font-family : Arial, Helvetica, sans-serif;
+	margin : 50px auto;
+	max-width : 1200px;
+	color : #000000;
+	font-size : 17px;
+}
+
+#titel
+{
+	text-align : center;
+	background-color : #F5F5F5;
+	border : solid;
+	border-color : #444444;
+	padding : 1em;
+}
+
+#navigatie
+{
+	background-color : #F5F5F5;
+	float : left;
+	position : fixed;
+	padding-right : 20px;
+	border : solid;
+	border-color : #444444;
+}
+
+section
+{
+	background-color : #FFFFFF;
+	max-width : 800px;
+	margin : 10px auto;
+	padding-left : 20px;
+}
+
+#imgstation
+{
+	width : 30%;
+	float : right;
+	padding : 10px;
+}
+
+#MainContent
+{
+	padding-top : 10px;
+	padding-bottom : 20px;
+}	
+
+#SecondaryContent
+{
+	padding-top : 10px;
+	padding-bottom : 20px;
+}
+
+.imgsport 
+{
+	width : 100%;
+}
+
+#sportinhoud
+{
+	display : grid;
+	grid-template-columns : 47% 47%;
+	grid-gap : 30px;
+	align : center;
+	padding-left : 5px;
+	padding-right : 5px;
+}
+
+#sporttitel
+{
+	padding-top : 10px;
+}
+
+#ReferralContent
+{
+	padding-top : 10px;
+	padding-bottom : 20px;
+	display : flex;
+	space : even;
+}
+
+#referralinhoud
+{
+	flex-basis : 50%;
+	flex-grow : 0;
+}
+
+#linksite
+{
+	flex-basis : 50%;
+	flex-grow : 1;
+	position : relative;
+	top : 5em;
+	left : 10%;
+}
+
+#taekwonbutton
+{
+	color : #FFFFFF;
+	background-color : #2699FB;
+	border : double;
+	border-color : #707070;
+	padding : 10px 10px;
+	font-size : 0.9em;
+}
+
+#taekwonbutton:hover
+{
+	background-color : #AAAAAA;
+}
+
+#taekwonfooter
+{
+	font-size : 0.8em;
+}
+
+#ContactContent
+{
+	padding-top : 10px;
+}
+
+#contactform
+{
+	padding-right : 20px;
+}
+
+fieldset
+{
+	border : none;
+}
+
+
+
+
+
+
+
