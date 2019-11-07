@@ -96,6 +96,18 @@ a
 	width : 25%;
 }
 
+#imgzuiderpolder
+{
+	width : 40%;
+	float : right;
+	padding-right : 10px;
+}
+
+#imgspaarnwoude
+{
+	width : 40%;
+}
+
 #MainContent
 {
 	padding-top : 10px;
