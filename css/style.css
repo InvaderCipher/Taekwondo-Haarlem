@@ -1,0 +1,282 @@
+@font-face 
+{
+	font-family : "Ostrich Sans Master";
+	src : url("ostrich-regular.ttf");
+}
+	/* Extern font */
+
+
+
+/*Background video*/
+#myVideo 
+{
+	position : fixed;
+	right : 0;
+	bottom : 0;
+	min-width : 100%;
+	min-height : 100%;
+	z-index : -100;
+}
+
+
+
+body
+{
+	font-family : Arial, Helvetica, sans-serif, "Ostrich Sans Master";
+	margin : 50px auto;
+	max-width : 80%;
+	color : #000000;
+	font-size : 17px;
+}
+	
+.content
+{
+	background-color : #FFFFFF;
+	max-width : 70%;
+	margin : 10px auto;
+	padding-left : 20px;
+}
+
+#titel
+{
+	text-align : center;
+	background-color : #F5F5F5;
+	border : solid;
+	border-color : #444444;
+	padding : 1em;
+}
+
+article > header
+{
+	text-decoration : underline;
+}
+
+
+/*Nav*/
+#navigatie
+{
+	background-color : #F5F5F5;
+	
+	position : sticky;
+	position: -webkit-sticky; /* Safari */
+	top : 0;
+	
+	padding-bottom : 40px;
+	border : solid;
+	border-color : #444444;
+	
+	z-index : 9999;	
+}
+
+#navigatie li
+{
+	display : block;
+	width : 120px;
+	float : left;
+	padding : 3px;
+}
+
+#navigatie a 
+{
+	display : block;
+	padding : 4px;
+	text-decoration : none;
+	background-color : #2699FB;
+	color : #FFFFFF;
+}
+
+#navigatie a:hover 
+{
+	background-color : #AAAAAA;
+	color : #FFFFFF;
+}
+
+
+/*img Main*/
+#imgstation
+{
+	width : 30%;
+	float : right;
+	padding : 10px;
+}
+
+#imggrotemarkt
+{
+	width : 25%;
+}
+
+#MainContent
+{
+	padding-top : 10px;
+	padding-bottom : 20px;
+}	
+
+
+/*Secondary*/
+#imgzuiderpolder
+{
+	width : 40%;
+	float : right;
+	padding-right : 10px;
+}
+
+#imgspaarnwoude
+{
+	width : 40%;
+}
+
+#SecondaryContent
+{
+	padding-top : 10px;
+	padding-bottom : 20px;
+}
+
+
+/*Sport*/
+.imgsport 
+{
+	width : 100%;
+}
+
+#sportinhoud
+{
+	display : grid;
+	grid-template-columns : 47% 47%;
+	grid-gap : 30px;
+	text-align : center;
+	padding-left : 5px;
+	padding-right : 5px;
+}
+
+#sporttitel
+{
+	padding-top : 10px;
+}
+
+
+/*Referral*/
+#ReferralContent
+{
+	padding-top : 10px;
+	padding-bottom : 20px;
+	display : flex;
+}
+
+#referralinhoud
+{
+	flex-basis : 50%;
+	flex-grow : 0;
+}
+
+#linksite
+{
+	flex-basis : 50%;
+	flex-grow : 1;
+	position : relative;
+	top : 5em;
+	left : 10%;
+}
+
+#taekwonbutton
+{
+	color : #FFFFFF;
+	background-color : #2699FB;
+	border : double;
+	border-color : #707070;
+	padding : 10px 10px;
+	font-size : 0.9em;
+}
+
+#taekwonbutton:hover
+{
+	background-color : #AAAAAA;
+}
+
+#taekwonbutton a
+{
+	display : block;
+	text-decoration : none;
+}
+
+#taekwonfooter
+{
+	font-size : 0.8em;
+	padding-top : 1em;
+}
+
+
+/*Contact*/
+#ContactContent
+{
+	padding-top : 10px;
+}
+
+#contactform
+{
+	padding-right : 20px;
+}
+
+fieldset
+{
+	border : none;
+}
+
+.invoer
+{
+	background-color : #DCDCDC;
+}
+
+.invoer:focus
+{
+	background-color : #FFFFFF;
+}
+
+
+/*Cookie statement*/
+#CookieStatement
+{
+	width : 100%;
+	background-color : #2699FB;
+	padding-left : 5px;
+	
+	border : solid 3px;
+	border-color : #444444;
+	
+	position : fixed;
+	bottom : 1px;
+	left : 1px;
+	z-index : 99999;
+	
+	font-size : 0.8em;
+}
+
+#cookies
+{
+	font-size : 0.8em;
+	position : absolute;
+	bottom : 5px;
+	right : 25px;
+}
+
+
+
+#paginaeind
+{
+	background-color : #F5F5F5;
+	border : solid;
+	border-color : #444444;
+	
+	padding : 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
